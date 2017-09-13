@@ -1,0 +1,2 @@
+#!/bin/bash
+PYTHONPATH="/home/kali/.linuxbrew/Cellar/sphinx-doc/1.6.3_1/libexec/lib/python2.7/site-packages:/home/kali/.linuxbrew/Cellar/sphinx-doc/1.6.3_1/libexec/vendor/lib/python2.7/site-packages:/home/kali/.linuxbrew/lib/python/site-packages" exec "/home/kali/.linuxbrew/Cellar/sphinx-doc/1.6.3_1/libexec/bin/sphinx-quickstart" "$@"

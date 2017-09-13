@@ -1,0 +1,2 @@
+#!/bin/bash
+exec "/home/kali/.linuxbrew/Cellar/gradle/4.1/libexec/bin/gradle" "$@"
