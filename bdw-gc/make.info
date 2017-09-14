@@ -1,0 +1,1 @@
+./configure --prefix=/home/kali/.linuxbrew/Cellar/bdw-gc/7.6.0 --enable-cplusplus --enable-redirect-malloc --enable-gc-assertions --enable-redirect-malloc --enable-large-config
