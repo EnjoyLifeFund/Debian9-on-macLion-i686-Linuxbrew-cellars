@@ -1,0 +1,1 @@
+./configure --prefix=/home/kali/.linuxbrew/Cellar/libxml2/2.9.5 --with-python --with-lzma --with-icu -with-output --with-reader --with-run-debug --with-fexceptions --with-history

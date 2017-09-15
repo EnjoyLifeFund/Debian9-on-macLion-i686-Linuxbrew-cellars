@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+. "/home/kali/.linuxbrew/etc/zookeeper/defaults"
+cd "/home/kali/.linuxbrew/Cellar/zookeeper/3.4.10/libexec/bin"
+./zkCli.sh "$@"

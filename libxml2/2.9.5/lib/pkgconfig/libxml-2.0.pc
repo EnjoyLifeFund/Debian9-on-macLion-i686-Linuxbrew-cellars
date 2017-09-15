@@ -1,0 +1,13 @@
+prefix=/home/kali/.linuxbrew/Cellar/libxml2/2.9.5
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.9.5
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2
+Libs.private: -L/home/kali/.linuxbrew/Cellar/icu4c/59.1/lib -licui18n -licuuc -licudata  -L/home/kali/.linuxbrew/Cellar/zlib/1.2.11/lib -lz -L/home/kali/.linuxbrew/Cellar/xz/5.2.3/lib -llzma  -lm  
+Cflags: -I${includedir}/libxml2 
